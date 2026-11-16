@@ -181,6 +181,8 @@ a { color: inherit; text-decoration: none; }
 .hero__theme { margin-top: 1.31rem; font-size: 4.8rem; line-height: 1.36; font-weight: 400; color: var(--ink); }
 .hero__note { margin-top: 6.21rem; font-weight: 700; font-size: 2.76rem; line-height: 1.36; color: var(--ink-2); }
 .hero__note a:hover { color: var(--link); }
+.hero__editors { margin-top: .6rem; font-stretch: 100%; font-weight: 400; font-size: max(14px, 2.2rem); line-height: 1.36; color: var(--ink-2); }
+.hero__editors a:hover { color: var(--link); }
 .pod__label { font-weight: 700; font-size: 5rem; line-height: 1.36; color: var(--ink); }
 .pod__title { margin-top: 1.2rem; }
 
@@ -669,6 +671,7 @@ a { color: inherit; text-decoration: none; }
   .hero__title { margin-top: 10px; font-size: 42px; }
   .hero__theme { margin-top: 10px; font-size: 24px; line-height: 1.25; }
   .hero__note { margin-top: 26px; }
+  .hero__editors { margin-top: 4px; font-size: 15px; }
   .lead { margin-top: 24px; }
 
 
