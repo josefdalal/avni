@@ -47,7 +47,7 @@ a { color: inherit; text-decoration: none; }
 /* משפחות הטיפוגרפיה, כולן Noto Sans Hebrew */
 .cb { font-stretch: 75%; font-weight: 700; }          /* Condensed Bold */
 .cr { font-stretch: 75%; font-weight: 400; }          /* Condensed Regular */
-.th { font-stretch: 100%; font-weight: 100; }         /* Thin */
+.th { font-stretch: 100%; font-weight: 400; }         /* Thin */
 
 /* ---------- כותרת עליונה ---------- */
 .site-header {
@@ -164,47 +164,29 @@ a { color: inherit; text-decoration: none; }
 .ripples .r2 { opacity: .75; }
 .ripples .r3 { opacity: .5; }
 .ripples .r4 { opacity: .3; }
-.hero__text { position: relative; padding-top: 11.61rem; }
-.hero__issue,
-.hero__about {
+.hero__text { position: relative; padding-top: 5.71rem; }
+.hero__issue {
   font-weight: 700;
   font-size: 2.76rem;
   line-height: 1.36;
   color: var(--ink-2);
 }
 .hero__title {
-  margin-top: .75rem;
+  margin-top: 5.5rem;
   font-weight: 700;
   font-size: 7.84rem;
-  line-height: .969;
+  line-height: .957;
   color: var(--ink);
 }
-.hero__about { margin-top: 2.5rem; }
-.hero__about a { color: var(--link); }
-.hero__about a:hover { text-decoration: underline; text-underline-offset: .3em; text-decoration-thickness: 1px; }
-
-/* ---------- נושא הגליון ---------- */
-.theme {
-  position: relative;
-  width: 192rem;
-  height: 42.6rem;                                     /* 652 עד 1078 */
-  margin-inline: auto;
-  padding-top: 15.64rem;
-  text-align: center;
-}
-.theme__title {
-  font-weight: 700;
-  font-size: 6rem;
-  line-height: 1.36;
-  color: var(--ink);
-}
-.strokes { position: absolute; height: 2.4rem; overflow: visible; }
-.strokes line { stroke: #000; }
-.strokes--top { left: 88.1rem; top: 9.8rem; width: 63.2rem; }
-.strokes--bottom { left: 39.7rem; top: 27.4rem; width: 63.1rem; }
+.hero__theme { margin-top: 1.31rem; font-size: 4.8rem; line-height: 1.36; font-weight: 400; color: var(--ink); }
+.hero__note { margin-top: 6.21rem; font-weight: 700; font-size: 2.76rem; line-height: 1.36; color: var(--ink-2); }
+.hero__note a:hover { color: var(--link); }
+.pod__label { font-weight: 700; font-size: 5rem; line-height: 1.36; color: var(--ink); }
+.pod__title { margin-top: 1.2rem; }
 
 /* ---------- כתבה מובילה ---------- */
 .lead {
+  margin-top: 3.5rem;
   height: 69.1rem;                                     /* 1078 עד 1769 */
   background: var(--peach);
   overflow: hidden;
@@ -218,16 +200,16 @@ a { color: inherit; text-decoration: none; }
 }
 .lead__media {
   position: absolute;
-  left: 31.8rem;
-  top: 1.1rem;
+  left: 31.3rem;
+  top: 1.2rem;
   width: 123.9rem;
   height: 69.8rem;
 }
 .lead__media img { width: 100%; height: 100%; object-fit: cover; }
 .lead__box {
   position: absolute;
-  left: 90.9rem;
-  top: 50.7rem;
+  left: 90.5rem;
+  top: 50.8rem;
   width: 75.7rem;
   height: 16rem;
   padding: 2.42rem 5.3rem 0 0;
@@ -251,14 +233,14 @@ a { color: inherit; text-decoration: none; }
 /* ---------- תוויות ושמות כותבים ---------- */
 .label {
   font-stretch: 100%;
-  font-weight: 100;
+  font-weight: 400;
   font-size: max(13px, 1.8rem);
   line-height: 1.36;
   color: var(--gray);
 }
 .byline {
   font-stretch: 100%;
-  font-weight: 100;
+  font-weight: 400;
   font-size: max(13px, 1.8rem);
   line-height: 1.36;
   color: var(--ink-2);
@@ -269,7 +251,7 @@ a { color: inherit; text-decoration: none; }
   display: grid;
   grid-template-columns: 48.9rem 48.4rem 49rem;
   width: 176.1rem;                                     /* 81 עד 1842 */
-  margin: 11rem auto 0;
+  margin: 6.2rem auto 0;
   padding: 4.5rem 15.3rem 4.6rem 0;
   border-top: var(--rule) solid var(--ink-2);
   border-bottom: var(--rule) solid var(--ink-2);
@@ -293,7 +275,7 @@ a { color: inherit; text-decoration: none; }
   margin-top: .6rem;
   min-height: calc(2 * 1.18em);
   font-stretch: 100%;
-  font-weight: 100;
+  font-weight: 400;
   font-size: max(14px, 2.2rem);
   line-height: 1.18;
 }
@@ -359,7 +341,7 @@ a { color: inherit; text-decoration: none; }
 .blind__sub {
   margin-top: .4rem;
   font-stretch: 100%;
-  font-weight: 100;
+  font-weight: 400;
   font-size: max(14px, 2.2rem);
   line-height: 1.36;
 }
@@ -373,7 +355,7 @@ a { color: inherit; text-decoration: none; }
 /* ---------- פודקאסט ---------- */
 .pod {
   height: 44.1rem;                                     /* 2804 עד 3245 */
-  margin-top: 24.5rem;
+  margin-top: 25.4rem;
 }
 .pod > * { position: absolute; }
 .pod__person img { width: 100%; height: 100%; object-fit: fill; }
@@ -391,7 +373,7 @@ a { color: inherit; text-decoration: none; }
 }
 .pod__text {
   right: calc(50% - 34.3rem);                          /* קצה ימני 1303 */
-  top: 6.2rem;
+  top: 5.2rem;
   color: #fff;
 }
 .pod__title {
@@ -400,13 +382,13 @@ a { color: inherit; text-decoration: none; }
   line-height: 1.36;
 }
 .pod__body {
-  margin-top: .81rem;
+  margin-top: .94rem;
   font-weight: 700;
   font-size: 3.1rem;
-  line-height: 1.21;
+  line-height: 1.194;
   white-space: nowrap;
 }
-.pod .byline { margin-top: 2.94rem; color: var(--ink-2); }
+.pod .byline { margin-top: 1.81rem; color: var(--ink-2); }
 .pod__text:hover .pod__title { text-decoration: underline; text-decoration-thickness: max(1px, .2rem); text-underline-offset: .2em; }
 
 /* ---------- כותרות מקטע ---------- */
@@ -427,7 +409,7 @@ a { color: inherit; text-decoration: none; }
 }
 
 /* ---------- ראיונות ---------- */
-.interviews { margin-top: 31.82rem; }
+.interviews { margin-top: 30.92rem; }
 .int-grid {
   display: grid;
   grid-template-columns: repeat(3, 48.5rem);
@@ -458,7 +440,7 @@ a { color: inherit; text-decoration: none; }
 .int__sub {
   margin-top: 3.06rem;
   font-stretch: 100%;
-  font-weight: 100;
+  font-weight: 400;
   font-size: max(14px, 2.2rem);
   line-height: 1.227;
 }
@@ -601,7 +583,7 @@ a { color: inherit; text-decoration: none; }
 
 /* ---------- תחתית ---------- */
 .site-footer {
-  height: 18rem;
+  height: 18.2rem;
   margin-top: 15.2rem;
   padding-top: 4.24rem;
   text-align: center;
@@ -680,17 +662,15 @@ a { color: inherit; text-decoration: none; }
   .menu { inset: 64px 0 0 0; }
   .menu a { font-size: 30px; }
 
-  .hero { height: 330px; }
-  .ripples { top: -270px; left: calc(50% - 400px); width: 800px; height: 800px; }
-  .hero__text { padding-top: 92px; }
-  .hero__issue, .hero__about { font-size: 17px; }
+  .ripples { top: -190px; left: calc(50% - 400px); width: 800px; height: 800px; }
+  .hero__text { padding-top: 70px; }
+  .hero { height: 390px; }
+  .hero__issue, .hero__note { font-size: 17px; }
   .hero__title { margin-top: 10px; font-size: 42px; }
-  .hero__about { margin-top: 8px; }
+  .hero__theme { margin-top: 10px; font-size: 24px; line-height: 1.25; }
+  .hero__note { margin-top: 26px; }
+  .lead { margin-top: 24px; }
 
-  .theme { width: auto; height: auto; padding: 70px 20px; }
-  .theme__title { font-size: 32px; line-height: 1.15; }
-  .strokes--top { left: auto; right: 10%; top: 40px; width: 70%; height: 14px; }
-  .strokes--bottom { left: 6%; top: auto; bottom: 36px; width: 66%; height: 14px; }
 
   .lead { height: auto; }
   .lead__link { width: auto; }
@@ -725,7 +705,8 @@ a { color: inherit; text-decoration: none; }
   .pod__person--left { left: 4%; aspect-ratio: 502 / 790; }
   .pod__person--right { left: auto; right: 4%; aspect-ratio: 388 / 879; }
   .pod__text { display: block; right: auto; top: auto; padding-top: 240px; }
-  .pod__title { font-size: 30px; line-height: 1.2; }
+  .pod__label { font-size: 30px; line-height: 1.2; }
+  .pod__title { margin-top: 4px; font-size: 30px; line-height: 1.2; }
   .pod__body { margin-top: 8px; font-size: 18px; line-height: 1.35; white-space: normal; }
   .pod .byline { margin-top: 14px; }
 
